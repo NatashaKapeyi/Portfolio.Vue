@@ -5,7 +5,9 @@
     </div>
     <div class="row" v-if="jobTitle">
     <p class="lead" v-for="title in jobTitle"
-     :key="title.id">{{ title.title }}</p>
+     :key="title.id">
+     {{ title.title }}
+    </p>
   </div>
     
   </div>

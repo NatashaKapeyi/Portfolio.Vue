@@ -35,9 +35,9 @@ export default createStore({
   },
   actions: {
     async fetchJobTitle(context){
-      let res = await fetch (dataURL)
-      let {jobTitle} = res.json
-      context.commit('setJobtitle', jobTitle)
+      let res = await fetch(dataURL)
+      let {jobTitle} = await res.json()
+      context.commit('setJobTitle', jobTitle)
     }
   },
   modules: {
