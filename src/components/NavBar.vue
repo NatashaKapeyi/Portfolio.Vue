@@ -18,13 +18,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0  ">
           <li class="nav-item">
-            <router-link class="nav-link" to="/"><i class="bi bi-house-door"></i> Home</router-link>
+            <router-link class="nav-link " to="/"><i class="bi bi-house-door"></i> Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link"  to="/about"><i class="bi bi-person"></i> About</router-link>
+            <router-link class="nav-link "  to="/about"><i class="bi bi-person"></i> About</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/resume"><i class="bi bi-file-earmark-person"></i> Resume</router-link>
+            <router-link class="nav-link " to="/resume"><i class="bi bi-file-earmark-person"></i> Resume</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/project"><i class="bi bi-folder"></i> Project</router-link>
@@ -48,4 +48,6 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style >
+
+</style>

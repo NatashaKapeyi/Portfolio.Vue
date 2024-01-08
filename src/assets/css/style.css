@@ -24,21 +24,47 @@ img[alt='logo']{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+   
     
   }
   
-  nav {
-    padding: 30px;
-  }
-  
-  nav a {
-    font-weight: bold;
-    color: #2c3e50;
+  nav ul li {
+    padding: 10px;
+
     
   }
   
-  nav a.router-link-exact-active {
-    color: #f09bb3;
+  /* nav a.router-link-exact-active:hover {
+    color:  brown;
     
+  } */
+  
+  .active, nav .nav-link:hover{
+    color: brown;
+  
   }
+  
+  nav .nav-link{
+    color: #A67B5B;
+    font-weight: 900;
+  }
+
+ a.router-link-exact-active.nav-link{
+  color:brown;
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+}
+
+/* #Name{
+  animation-name: cool;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes cool{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}  */
