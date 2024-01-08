@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-tertiary">
     <div class="container-fluid">
       <router-link to="/"> 
         <img  class="img-fluid" src="https://drive.google.com/uc?id=1gcw6QFno0Ndrv7TFoS9FOAwZ9Q5uSbSX" alt="logo" loading="lazy">
@@ -16,23 +16,25 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0  ">
           <li class="nav-item">
-            <router-link class="nav-link active" to="/">Home</router-link>
+            <router-link class="nav-link" to="/"><i class="bi bi-house-door"></i> Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">About</router-link>
+            <router-link class="nav-link"  to="/about"><i class="bi bi-person"></i> About</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/resume">Resume</router-link>
+            <router-link class="nav-link" to="/resume"><i class="bi bi-file-earmark-person"></i> Resume</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/project">Project</router-link>
+            <router-link class="nav-link" to="/project"><i class="bi bi-folder"></i> Project</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/testimonials">Testimonials</router-link>
-            <router-link class="nav-link" to="/contact">Contact</router-link>
+            <router-link class="nav-link" to="/testimonials"><i class="bi bi-chat-left-quote"></i> Testimonials</router-link>
           </li>
+          <li> 
+            <router-link class="nav-link" to="/contact"><i class="bi bi-telephone"></i> Contact</router-link>
+        </li>
         </ul>
       </div>
     </div>
