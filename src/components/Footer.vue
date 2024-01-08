@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container fixed-bottom">
       <div class="row">
         <p class="lead">NZ KAPEYI PORTFOLIO  &copy;<span>{{ currYear }}</span></p>
       </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
 *,
 *::before
 *::after{
@@ -5,6 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* html{
+  font-family: 'Castoro', serif;
+} */
 
 /* logo */
 img[alt='logo']{
@@ -14,11 +20,12 @@ img[alt='logo']{
 
 /* from app */
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family:'Castoro', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
+    
   }
   
   nav {
@@ -28,9 +35,10 @@ img[alt='logo']{
   nav a {
     font-weight: bold;
     color: #2c3e50;
+    
   }
   
   nav a.router-link-exact-active {
-    color: #42b983;
+    color: #f09bb3;
+    
   }
-
