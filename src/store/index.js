@@ -60,6 +60,11 @@ export default createStore({
     await (await fetch(dataURL)).json()
     context.commit('setProjects',projects)
   },
+  async fetchTestimonials(context){
+    let {testimonials}=
+    await (await fetch(dataURL)).json()
+    context.commit('setTestimonials',testimonials)
+  },
   },
   modules: {
   }
