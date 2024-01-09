@@ -3,8 +3,8 @@
       <div class="row">
           <h2 class="display-2">About</h2>
       </div>
-      <div class="row  pt-5 " v-if="aboutme">
-    <p class="lead" v-for="about in aboutme "
+      <div class="row  pt-5 " v-if="info">
+    <p class="lead" v-for="about in info "
      :key="about">
      {{ about }}
     </p>
@@ -17,7 +17,7 @@ import { computed, onMounted} from 'vue';
 import { useStore } from 'vuex';
   
   let store=useStore()
-  let aboutme =computed(()=> store.state.about)
+  let info=computed(()=> store.state.about)
   onMounted(()=>{
     store.dispatch('fetchAbout')
   })
