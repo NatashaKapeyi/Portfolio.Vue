@@ -1,3 +1,4 @@
+// import { lastIndexOf } from 'core-js/library/core/array'
 import { createStore } from 'vuex'
 
 const dataURL = 'https://natashakapeyi.github.io/todayPortfolioData/data/'
@@ -48,6 +49,11 @@ export default createStore({
       let {education} = 
       await (await fetch(dataURL)).json()
       context.commit('setEducation', education)
+  },
+  async fetchSkills(context){
+    let{skills}=
+    await (await fetch(dataURL)).json()
+    context.commit('setSkills',skills)
   },
   },
   modules: {

@@ -1,5 +1,5 @@
 <template>
-    <div class="container sticky-bottom">
+    <div class="container">
       <div class="row">
         <p class="lead">NZ KAPEYI  &copy;<span>{{ currYear }}</span></p>
       </div>
