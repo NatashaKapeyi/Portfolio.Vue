@@ -1,11 +1,10 @@
-<template>
+<template class="Dark">
   <div class="container">
-    <div class="row">
-    <h2 class="display-1 text-start ">Hello,</h2>
+    <div id="Name" class="row ">
+    <h2  class="display-1 text-end">NATASHA<span class="d-block pt-2 pe-xl-5">KAPEYI</span></h2>
     </div>
     
-    <div class="row text-end pt-5 " v-if="jobTitle">
-      <h4 class="display-4 " id="Name">I'm Natasha Kapeyi</h4>
+    <div class="row  pt-5 " v-if="jobTitle">
     <p class="lead" v-for="title in jobTitle"
      :key="title.id">
      {{ title.title }}
@@ -16,8 +15,6 @@
 </template>
 
 <script>
-
-
 export default {
 computed:{
   jobTitle(){
@@ -28,8 +25,14 @@ mounted(){
   this.$store.dispatch('fetchJobTitle')
 }
 }
+
+
+
 </script>
 
 <style scoped>
+#Name{
+  padding-top: 150px;
+}
 
 </style>

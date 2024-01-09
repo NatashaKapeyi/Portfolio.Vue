@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+*{
+  background-color: tan;
+}
+
 /* html{
   font-family: 'Castoro', serif;
 } */
@@ -20,10 +24,11 @@ img[alt='logo']{
 
 /* from app */
 #app {
-    font-family:'Castoro', serif;
+  font-family: 'Castoro', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
+    color: #443030;
    
     
   }
@@ -40,17 +45,19 @@ img[alt='logo']{
   } */
   
   .active, nav .nav-link:hover{
-    color: brown;
+    /* color: #443030; */
+    color: #A67B5B; 
   
   }
   
   nav .nav-link{
-    color: #A67B5B;
+    /* color: #A67B5B; */
+    color: #443030;
     font-weight: 900;
   }
 
  a.router-link-exact-active.nav-link{
-  color:brown;
+  color: #443030;
   text-decoration-line: underline;
   text-underline-offset: 10px;
 }
@@ -63,8 +70,9 @@ img[alt='logo']{
 }
 
 @keyframes cool{
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
+  0%   {background-color: burlywood;}
+  25%  {background-color: beige;}
+  50%  {background-color: rgb(234, 199, 124);}
+  100% {background-color:khaki;}
 }  */
+
