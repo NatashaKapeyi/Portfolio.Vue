@@ -1,7 +1,7 @@
 <template>
-    <div class="container fixed-bottom">
+    <div class="container sticky-bottom">
       <div class="row">
-        <p class="lead">NZ KAPEYI PORTFOLIO  &copy;<span>{{ currYear }}</span></p>
+        <p class="lead">NZ KAPEYI  &copy;<span>{{ currYear }}</span></p>
       </div>
     </div>
 </template>

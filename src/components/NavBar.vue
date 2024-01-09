@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-tertiary">
+  <nav class="navbar navbar-expand-lg sticky-top ">
     <div class="container-fluid">
       <router-link to="/"> 
         <img  class="img-fluid" src="https://drive.google.com/uc?id=1gcw6QFno0Ndrv7TFoS9FOAwZ9Q5uSbSX" alt="logo" loading="lazy">
