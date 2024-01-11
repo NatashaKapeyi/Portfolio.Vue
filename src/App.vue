@@ -1,6 +1,6 @@
 <template>
   <NavBar></NavBar>
-  <main class="container">
+  <main class="container-fluid">
      <router-view/>
   </main>
   <Footer></Footer>
@@ -23,4 +23,5 @@ export default{
 
 </script>
 <style src="@/assets/css/style.css">
+
 </style>

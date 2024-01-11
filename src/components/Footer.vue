@@ -1,8 +1,6 @@
 <template>
-    <div class="container">
-      <div class="row">
-        <p class="lead">NZ KAPEYI  &copy;<span>{{ currYear }}</span></p>
-      </div>
+    <div  class="d-flex">
+              <p class="lead text-white ">NZ KAPEYI  &copy;<span>{{ currYear }}</span></p>
     </div>
 </template>
 
@@ -18,5 +16,7 @@
 </script>
 
 <style scoped>
-
+div {
+ justify-content: space-around;
+}
 </style>

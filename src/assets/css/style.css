@@ -8,8 +8,15 @@
     box-sizing: border-box;
 }
 
-*{
+
+
+main,nav{
   background-color: tan;
+}
+
+div.d-flex{
+  background: #443030 ;
+  
 }
 
 /* html{
@@ -18,7 +25,7 @@
 
 /* logo */
 img[alt='logo']{
-    width: 5rem;
+    width: 3rem;
     aspect-ratio: 1/1;
 }
 
@@ -32,7 +39,7 @@ img[alt='logo']{
    
     
   }
-  
+
   nav ul li {
     padding: 10px;
 
