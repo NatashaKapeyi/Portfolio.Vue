@@ -75,7 +75,7 @@ h1,h2,h3{
 }
 
 .container::before{
-  content: url(https://drive.google.com/uc?id=124JbSfBSR14fZlvEsi4Pe6wulNXg9VZe);
+  content: url(https://i.ibb.co/rm9q8Bk/IMG-20200822-WA0045-removebg-preview.png);
   background-repeat: no-repeat;
   position: absolute;
     top: 30.3rem;

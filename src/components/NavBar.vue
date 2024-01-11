@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg sticky-top ">
     <div class="container-fluid">
       <router-link to="/"> 
-        <img  class="img-fluid" src="https://drive.google.com/uc?id=1gcw6QFno0Ndrv7TFoS9FOAwZ9Q5uSbSX" alt="logo" loading="lazy">
+        <img  class="img-fluid" src="https://i.ibb.co/dcQsHCF/44bf29f38d21fc21ec470f94e0778be2-removebg-preview.png" alt="logo" loading="lazy">
       </router-link>
       <button
         class="navbar-toggler"
