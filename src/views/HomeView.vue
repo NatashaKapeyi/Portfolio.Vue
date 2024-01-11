@@ -5,7 +5,7 @@
      <h1>NK</h1> 
      <h2 class="bg-white align-top">PORTFOLIO</h2>
      <h3>Natasha Kapeyi</h3>
-    <h4 class="display-5">An Aspiring <span></span>Fullstack Developer</h4>
+    <h4 class="display-5">A <span></span>Fullstack Developer</h4>
     <p class="display-6"><a class="text-black" href="https://drive.google.com/file/d/1JapHX95W_VrVnlbtsBC08JCz3lKhJ19j/view" download target="_blank" ><i class="bi bi-file-earmark-arrow-down"></i> </a>Carriculum Vitae</p>
     <!-- <img src="https://drive.google.com/uc?id=124JbSfBSR14fZlvEsi4Pe6wulNXg9VZe" alt="image" class="img-fluid " loading="lazy"> -->
   </div>
@@ -46,7 +46,8 @@ h1{
   font-size: 550px;
   font-weight: 400;
   filter: blur(2px);
-  
+ margin-bottom: -200px;
+
 }
 
  h2 {
@@ -55,8 +56,11 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-size: 80px;
 font-weight: 400;
 position: relative;
-bottom: 450px;
-overflow-y: hidden;
+bottom: 250px;
+
+
+
+
 }
 h3{
   font-size: 76px;
@@ -76,14 +80,17 @@ h4{
   content: url(https://drive.google.com/uc?id=124JbSfBSR14fZlvEsi4Pe6wulNXg9VZe);
   background-repeat: no-repeat;
   position: absolute;
-    top: 25rem;
+    top: 30.3rem;
    right:-7rem;
    flex-shrink: 0;
-   overflow-x: hidden;
+   overflow:hidden
+   
+   
   
   
  
   
 }
+
 
 </style>
