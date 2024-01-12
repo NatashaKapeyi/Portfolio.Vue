@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 
 
 
@@ -82,4 +84,5 @@ img[alt='logo']{
   50%  {background-color: rgb(234, 199, 124);}
   100% {background-color:khaki;}
 }  */
+
 

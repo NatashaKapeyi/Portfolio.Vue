@@ -1,5 +1,5 @@
 <template >
-  <div class="container">
+  <div class="container ">
     <div class="row">
       <div class="col">
       <h1>NK</h1> 
@@ -63,6 +63,21 @@ h4{
 }
 h1,h2,h3{
   font-weight: 400;
+
+}
+
+h1,h2,h3,h4 {
+  overflow: hidden;
+  animation: typing 3s backwards;
+  white-space: nowrap;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .container::before{
@@ -79,5 +94,6 @@ i{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor:grab;
 }
+
 
 </style>
