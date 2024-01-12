@@ -94,7 +94,9 @@ export default {
 .right{
     top: -578px;
     background-color: #443030;
+
 }
+
 
 .timeline {
     position: relative;
@@ -140,5 +142,6 @@ h1{
 }
 p{
     font-size: medium;
+    
 }
 </style>
