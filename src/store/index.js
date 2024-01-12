@@ -31,7 +31,7 @@ export default createStore({
       state.projects =value
     }
   },
-  actions: {
+  actions: { 
     async fetchAbout(context){
       let {about} = 
       await (await fetch(dataURL)).json()

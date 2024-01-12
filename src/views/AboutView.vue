@@ -42,7 +42,7 @@
       </div>
       <h4 class="pt-5 fs-3 ">Photographing</h4>
       <p>I love anything that has to do with art and photography. I consider it as my substitute to drawing and modeling if I am the one behind the camera . I love to capture moments and holding on to memories. </p>
-      <div id="carouselExampleRide" class="carousel slide w-75" data-bs-ride="true">
+      <div id="carouselExampleRide" class="carousel slide w-75 pb-3" data-bs-ride="true">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="https://i.ibb.co/fvMRSpP/IMG-20230707-WA0122.jpg" class="d-block w-100" alt="4">
