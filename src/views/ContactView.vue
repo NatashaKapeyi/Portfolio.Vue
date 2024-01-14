@@ -1,7 +1,7 @@
 <template>
     <div class="container ">
-        <h1 class="display-4 pt-4 ">Contact me</h1>
-        <div class="row pt-5">
+        <h1 class="display-1 pt-4 ">Contact me</h1>
+        <div class="row pt-5 pb-2">
             <div class="col pb-5">
                 <h2 class=" text-start pt-3">Lets talk business</h2>
                 <h3 class="text-start pl-2"> Lets connect
@@ -21,7 +21,7 @@
             </div>
             <form action="https://formspree.io/f/mrgnbpeo" method="POST" class="w-50 text-start fw-bold">
 
-<div class="col pt-2 ">
+<div class="col pt-2  ">
 
   <label for="firstname" class="form-label">Leave a message</label>
   <input type="text" placeholder="Enter your name" name="firstname" class="form-control" id="firstname" required>
@@ -59,8 +59,7 @@ export default {
 <style scoped>
 
 h2{
-font-size: 100px;
-text-align: justify;
+font-size: 91px;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
 
 }
@@ -80,4 +79,11 @@ p{
 h3{
     font-size: 40px;
 }
+
+@media screen and (max-width: 390px) {
+  h2{
+    font-size: 60px;
+  }
+}
+
 </style>

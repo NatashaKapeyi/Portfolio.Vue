@@ -32,30 +32,50 @@ export default createStore({
     }
   },
   actions: { 
-    async fetchAbout(context){
+    async fetchAbout(context){ try {
       let {about} = 
       await (await fetch(dataURL)).json()
       context.commit('setAbout', about)
+    } catch (error) {
+      console.log(error);
+    }
+      
   },
-    async fetchEducation(context){
+    async fetchEducation(context){ try {
       let {education} = 
       await (await fetch(dataURL)).json()
       context.commit('setEducation', education)
+    } catch (error) {
+      console.log(error);
+    }
+      
   },
-  async fetchSkills(context){
+  async fetchSkills(context){ try {
     let{skills}=
     await (await fetch(dataURL)).json()
     context.commit('setSkills',skills)
+  } catch (error) {
+    console.log(error);
+  }
+    
   },
-  async fetchProjects(context){
+  async fetchProjects(context){ try {
+    
     let {projects}=
     await (await fetch(dataURL)).json()
     context.commit('setProjects',projects)
+  } catch (error) {
+    console.log(error);
+  }
   },
-  async fetchTestimonials(context){
-    let {testimonials}=
+  async fetchTestimonials(context){ try {
+     let {testimonials}=
     await (await fetch(dataURL)).json()
     context.commit('setTestimonials',testimonials)
+  } catch (error) {
+    console.log(error);
+  }
+   
   },
   },
   modules: {

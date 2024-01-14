@@ -48,10 +48,10 @@
       <img src="https://i.ibb.co/fvMRSpP/IMG-20230707-WA0122.jpg" class="d-block w-100" alt="4">
     </div>
     <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="5">
+      <img src="https://i.ibb.co/VQNnCSb/IMG-20230926-WA0013.jpg" class="d-block w-100" alt="5">
     </div>
     <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="6">
+      <img src="https://i.ibb.co/XVSyfgJ/IMG-20230926-WA0014.jpg" class="d-block w-100" alt="6">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -99,8 +99,13 @@ p {
 }
 
 #photos{
-  margin-top: -152px;
+  margin-top: -151px;
 }
 
+@media screen and (max-width: 899px) {
+  img[alt="photos"]{
+    margin-top: 300px;
+  }
+}
 
 </style>

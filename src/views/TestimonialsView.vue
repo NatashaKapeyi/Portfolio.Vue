@@ -8,7 +8,7 @@
     <h1 class="card-head display-5 fs-5">{{ test.name }}</h1>
     <h2 class="card-text display-6 fw-bold fs-6">{{ test.surname }}</h2>  
     <!-- changed the info of the surname -->
-    <p class="card-text">{{ test.quotes }}</p>
+    <p class="card-text">" {{ test.quotes }}. "</p>
   </div>
 </div>
         </div>
