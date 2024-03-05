@@ -1,7 +1,7 @@
 <template>
     <div class="container ">
-        <h1 class="display-1 pt-4 ">Contact me</h1>
-        <div class="row pt-5 pb-2">
+        <h1 class="display-1 pt-5 ">Contact me</h1>
+        <div class="row pt-5 mt-5">
             <div class="col pb-5">
                 <h2 class=" text-start pt-3">Lets talk business</h2>
                 <h3 class="text-start pl-2"> Lets connect

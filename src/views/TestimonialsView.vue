@@ -42,4 +42,19 @@
     color: white;
   }
 
+  @media screen and (min-width: 900px) {
+ 
+ .gap-5{
+     gap: 4rem !important
+ }
+
+ .card:hover{
+  transform:scale(105%)
+ }
+
+
+
+
+}
+
 </style>
