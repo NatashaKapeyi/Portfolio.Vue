@@ -1,0 +1,41 @@
+[debug] [2024-01-12T16:11:02.185Z] ----------------------------------------------------------------------
+[debug] [2024-01-12T16:11:02.187Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Natasha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-01-12T16:11:02.188Z] CLI Version:   13.0.3
+[debug] [2024-01-12T16:11:02.188Z] Platform:      win32
+[debug] [2024-01-12T16:11:02.188Z] Node Version:  v20.10.0
+[debug] [2024-01-12T16:11:02.188Z] Time:          Fri Jan 12 2024 18:11:02 GMT+0200 (South Africa Standard Time)
+[debug] [2024-01-12T16:11:02.188Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-12T16:11:02.294Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-12T16:11:02.295Z] > authorizing via signed-in user (natashazikhona7@gmail.com)
+[debug] [2024-01-12T16:11:02.295Z] [iam] checking project nzk-vue-project for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-12T16:11:02.297Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nzk-vue-project:testIamPermissions [none]
+[debug] [2024-01-12T16:11:02.298Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nzk-vue-project:testIamPermissions x-goog-quota-user=projects/nzk-vue-project
+[debug] [2024-01-12T16:11:02.298Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nzk-vue-project:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-12T16:11:04.431Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/nzk-vue-project:testIamPermissions 200
+[debug] [2024-01-12T16:11:04.431Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nzk-vue-project:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-12T16:11:04.433Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nzk-vue-project [none]
+[debug] [2024-01-12T16:11:05.201Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nzk-vue-project 200
+[debug] [2024-01-12T16:11:05.201Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nzk-vue-project {"projectId":"nzk-vue-project","projectNumber":"266112091651","displayName":"NZK VUE PROJECT","name":"projects/nzk-vue-project","resources":{"hostingSite":"nzk-vue-project"},"state":"ACTIVE","etag":"1_943d66b6-9808-463f-999d-45ecee6151a8"}
+[info] 
+[info] === Deploying to 'nzk-vue-project'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-01-12T16:11:05.212Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/nzk-vue-project/versions [none]
+[debug] [2024-01-12T16:11:05.212Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/nzk-vue-project/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-01-12T16:11:07.629Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/nzk-vue-project/versions 500
+[debug] [2024-01-12T16:11:07.629Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/nzk-vue-project/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2024-01-12T16:11:07.885Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}
