@@ -13,7 +13,7 @@
                         <img v-bind:src="`${ed.IMG}`" class="card-img-fluid w-25" alt="place-image">
                     </div>
                     <div class="flip-card-back">
-                        <p>{{ ed.description }}</p>
+                        <p class="p-1 mt-4">{{ ed.description }}</p>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                         <p class="d-block pt-2">{{ title.Years }}</p>
                     </div>
                     <div class="flip-card-back">
-                        <p>{{ title.experience }}</p>
+                        <p class="mt-4 p-1">{{ title.experience }}</p>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ export default {
 
 <style scoped >
 h1{
-    /* font-weight: bold; */
+    margin-top: 50px;
     font-size: 30px
 
    
@@ -79,11 +79,7 @@ h2{
     box-shadow: 0px 0px 15px 5px rgb(128, 87, 34);
 } */
 
-@media screen and (max-width: 675px) {
-    .col-4{
-        width: 100%;
-    }
-}
+
 
 
 
@@ -93,6 +89,7 @@ h2{
     background-color: #443030;
     color: white
 } */
+
 
 
 
@@ -126,7 +123,8 @@ h2{
 }
 
 .flip-card-front {
-    box-shadow: 0px 0px 15px 5px rgb(128, 87, 34);
+    box-shadow: 0px 0px 15px 5px #443030;
+    
     color:#443030;
 }
 
