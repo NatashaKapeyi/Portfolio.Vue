@@ -6,7 +6,7 @@
       <h2 class="bg-white align-top">PORTFOLIO</h2>
       <h3>Natasha Kapeyi</h3>
       <h4 class="display-5">A <span></span>Fullstack Developer</h4>
-      <p class="display-6"><a class="text-black" href="https://drive.google.com/file/d/1JapHX95W_VrVnlbtsBC08JCz3lKhJ19j/view" download target="_blank" ><i class="bi bi-file-earmark-arrow-down "></i></a>Carriculum Vitae
+      <p class="display-6"><a class="text-black" href="https://drive.google.com/file/d/1JapHX95W_VrVnlbtsBC08JCz3lKhJ19j/view" download target="_blank" ><i class="bi bi-file-earmark-arrow-down "></i></a>Curriculum Vitae
       </p>
      </div>
    </div>

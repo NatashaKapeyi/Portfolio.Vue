@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
+
 *,
 *::before
 *::after{
@@ -20,8 +21,10 @@
 
 
 
-main,nav,#app{
+main,nav,#app,html{
   background-color: tan;
+    font-family: 'Castoro', serif;
+  
 }
 
 div.d-flex{
@@ -41,9 +44,9 @@ img[alt='logo']{
 
 /* from app */
 #app {
-  font-family: 'Castoro', serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* font-family: 'Castoro', serif; */
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
     text-align: center;
     color: #443030;
    

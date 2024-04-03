@@ -1,9 +1,9 @@
 <template>
-<div class="container p-5">
+<div class="container-fluid p-5 ">
     <div class="row">
     <!-- Education Section -->
+    <h2 class="display-4 text-center pt-3">Education</h2>
     <div class="col-md-6">
-        <h2 class="display-4 text-center pt-3">Education</h2>
         <div class="education">
             <div class="flip-card" v-for="(ed, index) in education" :key="index">
                 <div class="flip-card-inner">
@@ -19,10 +19,14 @@
             </div>
         </div>
     </div>
-
-   <!-- Skills Section -->
-   <div class="col-md-6">
-        <h2 class="display-4 text-center pt-3">Skills</h2>
+    <div class="col-md-6 image-overlay"><img src="https://i.ibb.co/HTP1PxB/IMG-20201023-WA0030.jpg" alt="Hovered Image" class="w-75 image-fluid"></div>
+    </div>
+    
+    
+    <div class="row">
+    <!-- Skills Section -->
+    <div class="col-md-6">
+       <h2 class="display-4 text-center pt-3">Skills</h2>
         <div class="skills">
             <div class="flip-card" v-for="(title, index) in skills" :key="index">
                 <div class="flip-card-inner">
@@ -37,8 +41,11 @@
             </div>
         </div>
     </div>
+    <div class="col-md-6"><img src="" alt="skills images" class="w-75 image-fluid "></div></div>
 </div>
-</div>
+   
+
+
 </template>
 
 <script>
@@ -91,7 +98,10 @@ h2{
 } */
 
 
-
+.row{
+    /* flex-direction: column; */
+    align-content: flex-end
+}
 
 .flip-card {
     height: 200px; /* Set a fixed height for each flip card */
