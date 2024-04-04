@@ -5,13 +5,16 @@
         <div class="col-md-12">
           <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="true">Education</button>
+              <button class="nav-link active" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="true">EDUCATION</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab" aria-controls="skills" aria-selected="false">Skills</button>
+              <button class="nav-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab" aria-controls="skills" aria-selected="false">SKILLS</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="awards-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button" role="tab" aria-controls="awards" aria-selected="false">Awards</button>
+              <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false">WORK EXPERIENCE</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="awards-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button" role="tab" aria-controls="awards" aria-selected="false">AWARDS</button>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
@@ -61,12 +64,66 @@
                 </div>
               </div>
             </div>
-            <!-- Awards Section -->
-            <div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="awards-tab">
-              <!-- Your existing Awards Section content -->
+           <!-- Awards Section -->
+<div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="awards-tab">
+  <div class="row">
+    <h2 class="display-4 text-center pt-3">Awards</h2>
+    <div class="col-md-6">
+      <div class="awards">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1></h1>
+              <p></p>
+            </div>
+            <div class="flip-card-back">
+              <p></p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Work Experience Section -->
+<div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="work-tab">
+  <div class="row">
+    <h2 class="display-4 text-center pt-3">Work Experience</h2>
+    <div class="col-md-6">
+      <div class="work-experience">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>LC STUDIO INTERN</h1>
+              <p>2024-Currently</p>
+            </div>
+            <div class="flip-card-back">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-6">
+      <div class="work-experience">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>IKAMVA YOUTH TUTOR</h1>
+              <p>2024-Currently</p>
+            </div>
+            <div class="flip-card-back">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
       </div>
     </div>
   </template>
