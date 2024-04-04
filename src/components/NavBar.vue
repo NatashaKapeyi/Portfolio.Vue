@@ -24,7 +24,7 @@
             <router-link class="nav-link "  to="/about"><i class="bi bi-person"></i> ABOUT</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link " to="/resume"><i class="bi bi-file-earmark-person"></i> RESUME</router-link>
+            <router-link class="nav-link " to="/resume"><i class="bi bi-mortarboard"></i> EDUCATION & EXPERIENCE</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/project"><i class="bi bi-folder"></i> PROJECTS</router-link>
