@@ -40,6 +40,8 @@ div.d-flex{
 img[alt='logo']{
     width: 3rem;
     aspect-ratio: 1/1;
+    /* left: 0.8rem;
+    position: relative; */
 }
 
 /* from app */

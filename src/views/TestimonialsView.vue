@@ -1,6 +1,6 @@
 <template>
     <div class="container ">
-        <h2 class="display-2 pt-5">My Testimonials</h2>
+        <h2 class="display-2 pt-5">What people say about me..</h2>
         <div class="row justify-content-around gap-5 pb-3 pt-3" v-if="testimonials">
             <div class="card" style="width: 18rem; padding:0cap; margin-top: 0cap ;" v-for="test in testimonials" :key="test">
   <img v-bind:src="`${ test.profile }`" class="card-img-top" alt="person" >

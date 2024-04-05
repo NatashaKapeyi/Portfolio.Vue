@@ -30,7 +30,7 @@
             <router-link class="nav-link" to="/project"><i class="bi bi-folder"></i> PROJECTS</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/testimonials"><i class="bi bi-chat-left-quote"></i> TESTIMONIALS</router-link>
+            <router-link class="nav-link" to="/testimonials"><i class="bi bi-chat-left-quote"></i>REVIEWS</router-link>
           </li>
           <li> 
             <router-link class="nav-link" to="/contact"><i class="bi bi-telephone"></i> CONTACT</router-link>

@@ -14,7 +14,7 @@
               <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false">WORK EXPERIENCE</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="awards-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button" role="tab" aria-controls="awards" aria-selected="false">AWARDS</button>
+              <button class="nav-link" id="awards-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button" role="tab" aria-controls="awards" aria-selected="false">ACHIEVEMENTS</button>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
@@ -73,13 +73,39 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h1></h1>
-              <p></p>
+              <h1>NEDBANK BURSARY WINNER & PRIZE</h1>
+              <p>2020</p>
             </div>
             <div class="flip-card-back">
-              <p></p>
+              <p>Third Place Winner</p>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="work-experience mt-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>Best Student for Business Studies in the WC Province </h1>
+              <p>2020</p>
+            </div>
+            <div class="flip-card-back">
+              <p>Additional details or description</p>
+            </div>
+          </div>
+        </div>
+      <div class="work-experience mt-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>Life Choices Academy Graduate </h1>
+              <p>2024</p>
+            </div>
+            <div class="flip-card-back">
+              <p>Additional details or description</p>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -95,37 +121,51 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h1>LC STUDIO INTERN</h1>
-              <p>2024-Currently</p>
+              <h1>Life Choices Studio Intern</h1>
+              <p>Currently</p>
             </div>
             <div class="flip-card-back">
-              <p></p>
+              <p>Additional details or description</p>
             </div>
           </div>
         </div>
       </div>
-    <div class="col-md-6">
-      <div class="work-experience">
+      <div class="work-experience mt-4"> <!-- Adding margin for separation -->
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h1>IKAMVA YOUTH TUTOR</h1>
-              <p>2024-Currently</p>
+              <h1>IKamva Youth Tutor</h1>
+              <p>2021-2023</p>
             </div>
             <div class="flip-card-back">
-              <p></p>
+              <p>Additional details or description</p>
             </div>
+          </div>
+        </div>
+      <div class="work-experience mt-4"> <!-- Adding margin for separation -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>Liesbeeck Gardens Financial Commitee Member</h1>
+              <p>2023</p>
+            </div>
+            <div class="flip-card-back">
+              <p>Additional details or description</p>
+            </div>
+          </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
       </div>
     </div>
+
+
+  
   </template>
   
   <script>
