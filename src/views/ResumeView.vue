@@ -21,7 +21,7 @@
             <!-- Education Section -->
             <div class="tab-pane fade show active" id="education" role="tabpanel" aria-labelledby="education-tab">
               <div class="row"> <!-- Wrap the content within a row -->
-                <h2 class="display-4 text-center pt-3">Education</h2>
+                <h2 class="display-4 text-center pt-3">Education <span class="d-block display-6 fs-italics">Hover over cards</span></h2>
                 <div class="col-md-6">
                   <div class="education">
                     <div class="flip-card" v-for="(ed, index) in education" :key="index" @mouseover="toggleImage(ed.hoverImage)" @mouseleave="hideImage">
@@ -62,6 +62,9 @@
                     </div>
                   </div>
                 </div>
+                <div class="col-md-6 image-overlay">
+                  <img src="https://i.ibb.co/W5XxtgJ/Frame-4-1.png" alt="Hovered Image" class="image-fluid w-75">
+                </div>
               </div>
             </div>
            <!-- Awards Section -->
@@ -77,7 +80,7 @@
               <p>2020</p>
             </div>
             <div class="flip-card-back">
-              <p>Third Place Winner</p>
+              <p>I won third place in the competition, and a prize.</p>
             </div>
           </div>
         </div>
@@ -90,7 +93,7 @@
               <p>2020</p>
             </div>
             <div class="flip-card-back">
-              <p>Additional details or description</p>
+              <p>I am in the top 10 of students who perfomed exceptionally well for Business Studies and Economics for matric 2020</p>
             </div>
           </div>
         </div>
@@ -102,13 +105,16 @@
               <p>2024</p>
             </div>
             <div class="flip-card-back">
-              <p>Additional details or description</p>
+              <p>I graduated from the Life Choices Academy on the 28th of March 2024, after the coursework and obtained my technical skills with an aggregate of over 80%.</p>
             </div>
           </div>
         </div>
         </div>
       </div>
     </div>
+    <div class="col-md-6 image-overlay">
+    <img src="https://i.ibb.co/3dpPGTJ/Frame-4-2.png" alt="Hovered Image" class="image-fluid w-75">
+  </div>
   </div>
 </div>
 
@@ -125,7 +131,7 @@
               <p>Currently</p>
             </div>
             <div class="flip-card-back">
-              <p>Additional details or description</p>
+              <p>Recently just started at LC Studio after LC Academy coursework when I will introduced to more technical skills , including figma, wordpress and etc</p>
             </div>
           </div>
         </div>
@@ -138,7 +144,7 @@
               <p>2021-2023</p>
             </div>
             <div class="flip-card-back">
-              <p>Additional details or description</p>
+              <p>I was a Volunteer at Ikamva Youth from 2021, in 2022 I was in a stiped payroll by an organization that was working with Ikamva Youth till I had to persue my tech journey and take a break from it.</p>
             </div>
           </div>
         </div>
@@ -150,13 +156,16 @@
               <p>2023</p>
             </div>
             <div class="flip-card-back">
-              <p>Additional details or description</p>
+              <p>I was part of the Financial Committe of the residence I lived in 2023, I used to moniter and oversee the receipts and expenses incurred by our residence till I left in July 2023 to persue my tech journey and went back home.</p>
             </div>
           </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="col-md-6 image-overlay">
+    <img src="https://i.ibb.co/GMc2dLQ/Frame-4.png" alt="Hovered Image" class="image-fluid w-75">
+  </div>
   </div>
 </div>
           </div>
@@ -309,4 +318,25 @@ h2{
     border-color: #443030;
   }
 
+  .flip-card-back {
+  padding: 20px; 
+  overflow: auto; 
+}
+
+.description {
+  font-size: 16px; 
+  line-height: 1.5; 
+  max-height: calc(100% - 40px);
+}
+
+.flip-card-front {
+  font-size: 18px; /* Adjust as needed */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 512px) {
+h1{
+  font-size: 20px;
+}
+}
 </style>
