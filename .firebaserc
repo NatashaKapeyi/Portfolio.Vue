@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "nzk-vue-project"
-  }
+    "default": "nzk-vue-project-c2bfe",
+    "deploy": "nzk-vue-project-c2bfe"
+  },
+  "targets": {},
+  "etags": {}
 }

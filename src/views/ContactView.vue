@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="row">
-          <img src="https://i.ibb.co/MpLv8p9/data-2-OOs-C96s-QQL3f-O6bhn-BZ5dcz-XC0d-Ul-NIFXq-RPh-R-W3-BV7-Lg0-Ua-EPh9-HYl-EIYB5zj-FKY5p-AXS0jsj9.png" alt="location">
+          <img src="https://i.ibb.co/MpLv8p9/data-2-OOs-C96s-QQL3f-O6bhn-BZ5dcz-XC0d-Ul-NIFXq-RPh-R-W3-BV7-Lg0-Ua-EPh9-HYl-EIYB5zj-FKY5p-AXS0jsj9.png" alt="location" loading="lazy">
         </div>
         <h1 class="text-start pt-3">Reach Me:</h1>
         <h3 class="text-start">

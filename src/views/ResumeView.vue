@@ -39,7 +39,7 @@
                   </div>
                 </div>
                 <div class="col-md-6 image-overlay">
-                  <img v-show="showImage" v-bind:src="hoveredImage" alt="Hovered Image" class="image-fluid w-75">
+                  <img v-show="showImage" v-bind:src="hoveredImage" alt="Hovered Image" class="image-fluid w-75" loading="lazy">
                 </div>
               </div>
             </div>
