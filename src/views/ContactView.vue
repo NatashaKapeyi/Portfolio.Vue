@@ -1,27 +1,33 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid p-5">
     <h1 class="display-1 pt-5">Contact me</h1>
     <div class="row">
       <div class="col-lg-6">
         <div class="row">
-          <img src="https://i.ibb.co/MpLv8p9/data-2-OOs-C96s-QQL3f-O6bhn-BZ5dcz-XC0d-Ul-NIFXq-RPh-R-W3-BV7-Lg0-Ua-EPh9-HYl-EIYB5zj-FKY5p-AXS0jsj9.png" alt="location" loading="lazy">
-        </div>
-        <h1 class="text-start pt-3">Reach Me:</h1>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.3064809421644!2d18.562321975513555!3d-33.984660773182526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44e3e402e651%3A0x8f31e35492aeb024!2sGugulethu%20Mall!5e0!3m2!1sen!2sza!4v1712906305862!5m2!1sen!2sza" width="600" height="515" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+          <div class="col">
+            <h1 class="text-start pt-3">Reach Me:</h1>
         <h3 class="text-start">
           <a class="social-link " href="https://www.facebook.com/zish.kapeyi/?locale=da_DK&_rdr" target="_blank"><i class="bi bi-facebook"></i></a>
           <a class="social-link" href="https://github.com/NatashaKapeyi" target="_blank"><i class="bi bi-github"></i></a>
           <a class="social-link" href="https://www.instagram.com/natasha_kapeyi/" target="_blank"><i class="bi bi-instagram"></i></a>
         </h3>
-        <h6 class="location text-start"><i class="bi bi-geo-alt text-black"></i> Gugulethu</h6>
+        <h6 class="location text-start">
+    <a href="https://maps.app.goo.gl/DrJcsVq955FtBa3k9" target="_blank" rel="noopener noreferrer" aria-label="Location on Google Maps" class="text-decoration-none">
+        <i class="bi bi-geo-alt"></i> Gugulethu
+    </a>
+    </h6>
         <h6 class="number text-start">
           <i class="bi bi-telephone"></i>
-          <a href="tel:+27810696733" class="text-black text-decoration-none">+27 8106 96733</a>
+          <a href="tel:+27810696733" class="text-decoration-none">+27 8106 96733</a>
         </h6>
         <h6 class="email text-start">
           <i class="bi bi-envelope"></i>
-          <a href="mailto:natashazikhona7@gmail.com" class="text-black text-decoration-none">natashazikhona7@gmail.com</a>
+          <a href="mailto:natashazikhona7@gmail.com" class=" text-decoration-none">natashazikhona7@gmail.com</a>
         </h6>
       </div>
+    </div>
+        
 
       <div class="col-lg-6">
         <div class="form-container">
@@ -137,9 +143,10 @@ h1 {
   }
 
   .email a,
-  .number a {
-    color: #000;
-    text-decoration: none;
+  .number a, .location a {
+    color: #433030;
+  font-weight: bold;
+
   }
 
   .email a:hover,
@@ -149,4 +156,16 @@ h1 {
   .text-start {
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
   }
+  @media (max-width: 991gpx) {
+    .form-container {
+        max-width: 100%;
+    }}
+
+@media (max-width: 576px) {
+    .form-container {
+        padding: 10px; /* Further reduce padding on very small screens */
+        max-width: 100%; /* Allow the form to take up the full width of the screen */
+    }
+}
+  
 </style>

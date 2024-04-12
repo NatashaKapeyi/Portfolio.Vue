@@ -18,13 +18,13 @@
           <div id="carouselExampleAutoplaying" class="carousel slide w-75" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://i.ibb.co/P4GDg5r/IMG-20221125-WA0001.jpg" class="d-block w-100" alt="1">
+                <img src="https://i.ibb.co/P4GDg5r/IMG-20221125-WA0001.jpg" class="d-block w-100" alt="1"  loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.ibb.co/NVSBVDm/IMG-20230124-WA0004.jpg" class="d-block w-100" alt="2">
+                <img src="https://i.ibb.co/NVSBVDm/IMG-20230124-WA0004.jpg" class="d-block w-100" alt="2"  loading="lazy">
               </div>
               <div class="carousel-item">
-                <img src="https://i.ibb.co/3CZQcpQ/IMG-20221130-WA0022.jpg" class="d-block w-100" alt="3">
+                <img src="https://i.ibb.co/3CZQcpQ/IMG-20221130-WA0022.jpg" class="d-block w-100" alt="3"  loading="lazy">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -45,13 +45,13 @@
       <div id="carouselExampleRide" class="carousel slide w-75 pb-3" data-bs-ride="true">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://i.ibb.co/fvMRSpP/IMG-20230707-WA0122.jpg" class="d-block w-100" alt="4">
+      <img src="https://i.ibb.co/fvMRSpP/IMG-20230707-WA0122.jpg" class="d-block w-100" alt="4"  loading="lazy">
     </div>
     <div class="carousel-item">
-      <img src="https://i.ibb.co/VQNnCSb/IMG-20230926-WA0013.jpg" class="d-block w-100" alt="5">
+      <img src="https://i.ibb.co/VQNnCSb/IMG-20230926-WA0013.jpg" class="d-block w-100" alt="5"  loading="lazy">
     </div>
     <div class="carousel-item">
-      <img src="https://i.ibb.co/XVSyfgJ/IMG-20230926-WA0014.jpg" class="d-block w-100" alt="6">
+      <img src="https://i.ibb.co/XVSyfgJ/IMG-20230926-WA0014.jpg" class="d-block w-100" alt="6"  loading="lazy">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -65,7 +65,7 @@
 </div>
       </div>
       <div class="col" id="photos">
-        <img src="https://i.ibb.co/BP5qbDv/Component-1.png" alt="photos" class="img-fluid">
+        <img src="https://i.ibb.co/BP5qbDv/Component-1.png" alt="photos" class="img-fluid"  loading="lazy">
       </div>
     </div>
   </div>

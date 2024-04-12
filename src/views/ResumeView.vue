@@ -29,7 +29,7 @@
                         <div class="flip-card-front">
                           <h1>{{ ed.place }}</h1>
                           <p>{{ ed.year }}</p>
-                          <img v-bind:src="`${ed.IMG}`" class="card-img-fluid w-25" alt="place-image">
+                          <img v-bind:src="`${ed.IMG}`" class="card-img-fluid w-25" alt="place-image" loading="lazy" >
                         </div>
                         <div class="flip-card-back">
                           <p class="text-center">{{ ed.description }}</p>
@@ -63,7 +63,7 @@
                   </div>
                 </div>
                 <div class="col-md-6 image-overlay">
-                  <img src="https://i.ibb.co/W5XxtgJ/Frame-4-1.png" alt="Hovered Image" class="image-fluid w-75">
+                  <img src="https://i.ibb.co/W5XxtgJ/Frame-4-1.png" alt="skills-image" class="image-fluid w-75"  loading="lazy">
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@
       </div>
     </div>
     <div class="col-md-6 image-overlay">
-    <img src="https://i.ibb.co/3dpPGTJ/Frame-4-2.png" alt="Hovered Image" class="image-fluid w-75">
+    <img src="https://i.ibb.co/3dpPGTJ/Frame-4-2.png" alt="Hovered Image" class="image-fluid w-75" loading="lazy">
   </div>
   </div>
 </div>
@@ -164,7 +164,7 @@
       </div>
     </div>
     <div class="col-md-6 image-overlay">
-    <img src="https://i.ibb.co/GMc2dLQ/Frame-4.png" alt="Hovered Image" class="image-fluid w-75">
+    <img src="https://i.ibb.co/GMc2dLQ/Frame-4.png" alt="Hovered Image" class="image-fluid w-75" loading="lazy">
   </div>
   </div>
 </div>
