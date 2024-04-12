@@ -156,15 +156,15 @@ h1 {
   .text-start {
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
   }
-  @media (max-width: 991gpx) {
+  @media (max-width: 991px) {
     .form-container {
         max-width: 100%;
     }}
 
 @media (max-width: 576px) {
     .form-container {
-        padding: 10px; /* Further reduce padding on very small screens */
-        max-width: 100%; /* Allow the form to take up the full width of the screen */
+        padding: 10px; 
+        max-width: 100%
     }
 }
   
