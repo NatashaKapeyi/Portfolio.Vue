@@ -39,7 +39,7 @@
                   </div>
                 </div>
                 <div class="col-md-6 image-overlay">
-                  <img v-show="showImage" v-bind:src="hoveredImage" alt="Hovered Image" class="image-fluid w-75" loading="lazy">
+                  <img v-show="showImage" v-bind:src="hoveredImage" alt="Hovered Image" class="image-fluid w-75 h-75" loading="lazy">
                 </div>
               </div>
             </div>
@@ -63,7 +63,7 @@
                   </div>
                 </div>
                 <div class="col-md-6 image-overlay">
-                  <img src="https://i.ibb.co/W5XxtgJ/Frame-4-1.png" alt="skills-image" class="image-fluid w-75"  loading="lazy">
+                  <img src="https://i.ibb.co/W5XxtgJ/Frame-4-1.png" alt="skills-image" class="image-fluid w-75 h-75"  loading="lazy">
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@
       </div>
     </div>
     <div class="col-md-6 image-overlay">
-    <img src="https://i.ibb.co/3dpPGTJ/Frame-4-2.png" alt="Hovered Image" class="image-fluid w-75" loading="lazy">
+    <img src="https://i.ibb.co/3dpPGTJ/Frame-4-2.png" alt="Hovered Image" class="image-fluid w-75 h-75" loading="lazy">
   </div>
   </div>
 </div>
@@ -164,7 +164,7 @@
       </div>
     </div>
     <div class="col-md-6 image-overlay">
-    <img src="https://i.ibb.co/GMc2dLQ/Frame-4.png" alt="Hovered Image" class="image-fluid w-75" loading="lazy">
+    <img src="https://i.ibb.co/GMc2dLQ/Frame-4.png" alt="Hovered Image" class="image-fluid w-75 h-75" loading="lazy">
   </div>
   </div>
 </div>
@@ -226,20 +226,10 @@ h2{
     color: #443030;
 }
 
-/* .col-4{
-    box-shadow: 0px 0px 15px 5px rgb(128, 87, 34);
-} */
+.h-75{
+  height: 97.8% !important;
+}
 
-
-
-
-
-/* h1:is(:hover, :focus) {
-    text-decoration:underline none;
-    scale: 1.2;
-    background-color: #443030;
-    color: white
-} */
 
 
 .row{
@@ -339,4 +329,8 @@ h1{
   font-size: 20px;
 }
 }
+/* img[alt="Hovered Image"] {
+    max-width:100%;
+    height: 100%; 
+} */
 </style>
