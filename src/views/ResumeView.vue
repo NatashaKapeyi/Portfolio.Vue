@@ -21,7 +21,10 @@
             <!-- Education Section -->
             <div class="tab-pane fade show active" id="education" role="tabpanel" aria-labelledby="education-tab">
               <div class="row"> <!-- Wrap the content within a row -->
-                <h2 class="display-4 text-center pt-3">Education <span class="d-block display-6 fs-italics">Hover over cards</span></h2>
+                <h2 class="display-4 text-center pt-3">
+                Education
+              </h2>
+              <h4 v-if="showHoverText" class="d-block fst-italic">Hover over cards</h4>
                 <div class="col-md-6">
                   <div class="education">
                     <div class="flip-card" v-for="(ed, index) in education" :key="index" @mouseover="toggleImage(ed.hoverImage)" @mouseleave="hideImage">
@@ -47,6 +50,7 @@
             <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
               <div class="row">
                   <h2 class="display-4 text-center pt-3">Skills</h2>
+                  <h4 v-if="showHoverText" class="d-block fst-italic">Hover over cards</h4>
                 <div class="col-md-6">
                   <div class="skills">
                     <div class="flip-card" v-for="(title, index) in skills" :key="index">
@@ -71,6 +75,7 @@
 <div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="awards-tab">
   <div class="row">
     <h2 class="display-4 text-center pt-3">Awards</h2>
+    <h4 v-if="showHoverText" class="d-block fst-italic">Hover over cards</h4>
     <div class="col-md-6">
       <div class="awards">
         <div class="flip-card">
@@ -121,7 +126,8 @@
 <!-- Work Experience Section -->
 <div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="work-tab">
   <div class="row">
-    <h2 class="display-4 text-center pt-3">Work Experience</h2>
+    <h2 class="display-4 text-center pt-3">Experience</h2>
+    <h4 v-if="showHoverText" class="d-block fst-italic">Hover over cards</h4>
     <div class="col-md-6">
       <div class="work-experience">
         <div class="flip-card">
@@ -182,7 +188,8 @@
     data() {
       return {
         showImage: false,
-        hoveredImage: ''
+        hoveredImage: '',
+        showHoverText: false, 
       };
     },
     computed: {
@@ -196,6 +203,10 @@
     mounted() {
       this.$store.dispatch('fetchEducation');
       this.$store.dispatch('fetchSkills');
+      this.showHoverText = true;
+      setTimeout(() => {
+      this.showHoverText = false;
+    }, 8000);
     },
     methods: {
       toggleImage(hoverImageSrc) {
@@ -287,6 +298,10 @@ h2{
     color: #fff; 
     border-color:#443030; 
     border-radius: 0; 
+  }
+
+  h4{
+    color: #443030;
   }
 
   /* Style for inactive tabs */
