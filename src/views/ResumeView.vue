@@ -11,7 +11,7 @@
               <button class="nav-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab" aria-controls="skills" aria-selected="false">SKILLS</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false">WORK EXPERIENCE</button>
+              <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false">EXPERIENCE</button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="awards-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button" role="tab" aria-controls="awards" aria-selected="false">ACHIEVEMENTS</button>
@@ -126,7 +126,7 @@
 <!-- Work Experience Section -->
 <div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="work-tab">
   <div class="row">
-    <h2 class="display-4 text-center pt-3">Experience</h2>
+    <h2 class="display-4 text-center pt-3"> Work Experience</h2>
     <h4 v-if="showHoverText" class="d-block fst-italic">Hover over cards</h4>
     <div class="col-md-6">
       <div class="work-experience">
@@ -344,8 +344,5 @@ h1{
   font-size: 20px;
 }
 }
-/* img[alt="Hovered Image"] {
-    max-width:100%;
-    height: 100%; 
-} */
+
 </style>
