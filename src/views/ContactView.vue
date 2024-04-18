@@ -36,16 +36,14 @@
           <div class="social-grouped">
             <div class="row">
               <h6 class="text-justify mb-5">
-                Whether you have a question, a suggestion, I will appreciate hearing from you! Please don't hesitate to get in touch using platforms and form below.I'm looking forward to connecting with you!
+                Whether you have a question, a suggestion, I will appreciate hearing from you! Please don't hesitate to get in touch using platforms and form below. I'm looking forward to connecting with you!
               </h6>
               <div class="col-6">
                 <div class="row">
                   <div class="col-12">
-                    <a class="social-link" href="https://www.facebook.com/zish.kapeyi/?locale=da_DK&_rdr" target="_blank"><i
-                    class="bi bi-facebook"></i></a>
                 <a class="social-link" href="https://github.com/NatashaKapeyi" target="_blank"><i
                     class="bi bi-github"></i></a>
-                <a class="social-link" href="https://www.instagram.com/natasha_kapeyi/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a class="social-link" href="www.linkedin.com/in/natasha-kapeyi-7001a8209" target="_blank"><i class="bi bi-linkedin"></i></a>
                   </div>
                   <div class="col">
 
@@ -91,7 +89,7 @@
         <div class="row mb-5">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.3064809421644!2d18.562321975513555!3d-33.984660773182526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44e3e402e651%3A0x8f31e35492aeb024!2sGugulethu%20Mall!5e0!3m2!1sen!2sza!4v1712906305862!5m2!1sen!2sza"
-            width="600" height="213" style="border: 0" allowfullscreen="" loading="lazy"
+            width="600" height="210" style="border: 0" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
