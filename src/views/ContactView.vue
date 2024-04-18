@@ -108,18 +108,7 @@ h1 {
   text-align: center;
 }
 
-.social-link {
-  /* color: #433030; */
-  /* font-size: 24px; */
-  /* margin-right: 10px; */
-}
 
-/* .bi{
-  width: 100px;
-} */
-/* .social-link:hover {
-  color: #000;
-} */
 
 .form-container {
   max-width: 400px;
