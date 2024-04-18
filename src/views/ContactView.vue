@@ -43,7 +43,7 @@
                   <div class="col-12">
                 <a class="social-link" href="https://github.com/NatashaKapeyi" target="_blank"><i
                     class="bi bi-github"></i></a>
-                <a class="social-link" href="www.linkedin.com/in/natasha-kapeyi-7001a8209" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a class="social-link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="bi bi-linkedin"></i></a>
                   </div>
                   <div class="col">
 
