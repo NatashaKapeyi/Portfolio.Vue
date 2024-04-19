@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid pb-5 justify-content-center">
       <h2 class="display-2 pt-5"> My Projects</h2>
-      <h3 class="text-center text-decoration-underline pb-3">Hover over the projects</h3>
+      <!-- <h3 class="text-center text-decoration-underline pb-3">Hover over the projects</h3> -->
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 p-0" v-for="pro in projects" :key="pro">
           <div class="project-container position-relative">
@@ -39,6 +39,7 @@
   .project-container {
     overflow: hidden;
     position: relative;
+    padding: 8px;
   }
   
   .project-img {
@@ -101,4 +102,7 @@
       max-width: 100%;
     }
   }
+
+
+
   </style>
