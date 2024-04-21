@@ -36,21 +36,24 @@
           <div class="social-grouped">
             <div class="row">
               <h6 class="text-justify mb-5">
-                If you have a question, a suggestion, I will appreciate hearing from you! Please don't hesitate to get in touch using platforms and form below. I'm looking forward to connecting with you!
+                If you have a question, a suggestion, I will appreciate hearing from you! Please don't hesitate to get
+                in touch using platforms and form below. I'm looking forward to connecting with you!
               </h6>
               <div class="col-6">
                 <div class="row">
                   <div class="col-12">
-                <a class="social-link" href="https://github.com/NatashaKapeyi" target="_blank"><i
-                    class="bi bi-github"></i></a>
-                <a class="social-link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a class="social-link" href="https://github.com/NatashaKapeyi" target="_blank"><i
+                        class="bi bi-github"></i></a>
+                    <a class="social-link"
+                      href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                      target="_blank"><i class="bi bi-linkedin"></i></a>
                   </div>
                   <div class="col">
 
                     <h6 class="fw-bold">My socials</h6>
                   </div>
                 </div>
-                
+
 
                 <div class="row justify-content-center">
                   <div class="col-12">
@@ -62,26 +65,28 @@
                 </div>
               </div>
               <div class="col-6 mb-5">
-                
-                  <div class="row">
-                    <div class="col-12">
-                      <a href="tel:+27810696733" class="text-decoration-none social-link"><i class="bi bi-telephone"></i></a>
-                    </div>
-                    <div class="col">
-                      <h6 class="number fw-bold">+27 8106 96733</h6>
-                    </div>
+
+                <div class="row">
+                  <div class="col-12">
+                    <a href="tel:+27810696733" class="text-decoration-none social-link"><i
+                        class="bi bi-telephone"></i></a>
                   </div>
-                
-                
-                  <div class="row mb-4">
-                    <div class="col-12">
-                      <a href="mailto:natashazikhona7@gmail.com" class="text-decoration-none social-link"><i class="bi bi-envelope"></i></a>
-                    </div>
-                    <div class="col">
-                        <h6 class="email fw-bold word-break">natashazikhona7@gmail.com</h6>
-                    </div>
+                  <div class="col">
+                    <h6 class="number fw-bold">+27 8106 96733</h6>
                   </div>
-                
+                </div>
+
+
+                <div class="row mb-4">
+                  <div class="col-12">
+                    <a href="mailto:natashazikhona7@gmail.com" class="text-decoration-none social-link"><i
+                        class="bi bi-envelope"></i></a>
+                  </div>
+                  <div class="col">
+                    <h6 class="email fw-bold word-break">natashazikhona7@gmail.com</h6>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -210,10 +215,12 @@ h1 {
     max-width: 100%;
   }
 }
+
 .word-break {
-    word-break: break-all;
+  word-break: break-all;
 }
+
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 </style>

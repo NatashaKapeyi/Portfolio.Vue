@@ -206,7 +206,7 @@
       this.showHoverText = true;
       setTimeout(() => {
       this.showHoverText = false;
-    }, 8000);
+    }, 4000);
     },
     methods: {
       toggleImage(hoverImageSrc) {
