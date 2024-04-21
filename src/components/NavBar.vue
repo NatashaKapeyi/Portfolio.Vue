@@ -18,7 +18,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0  ">
           <li class="nav-item">
-            <router-link class="nav-link " to="/"><i class="bi bi-house-door"></i>HOME</router-link>
+            <router-link class="nav-link " to="/"><i class="bi bi-house-door"></i> HOME</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link "  to="/about"><i class="bi bi-person"></i> ABOUT</router-link>
@@ -30,7 +30,7 @@
             <router-link class="nav-link" to="/project"><i class="bi bi-folder"></i> PROJECTS</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/testimonials"><i class="bi bi-chat-left-quote"></i>REVIEWS</router-link>
+            <router-link class="nav-link" to="/testimonials"><i class="bi bi-chat-left-quote"></i> REVIEWS</router-link>
           </li>
           <li> 
             <router-link class="nav-link" to="/contact"><i class="bi bi-telephone"></i> CONTACT</router-link>

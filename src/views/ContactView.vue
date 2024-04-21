@@ -121,6 +121,7 @@ h1 {
   background-color: #f9f9f9;
 }
 
+
 .form-label {
   font-weight: bold;
 }
@@ -131,7 +132,6 @@ h1 {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 0;
-  /* Set border-radius to 0 to make the box square */
   box-sizing: border-box;
 }
 
@@ -188,10 +188,7 @@ h1 {
   font-weight: bold;
 }
 
-.email a:hover,
-.number a:hover {
-  text-decoration: underline;
-}
+
 
 .text-start {
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
@@ -203,11 +200,6 @@ h1 {
   }
 }
 
-@media (min-width: 992px) {
-  /* .col-lg-6{
-    width: 100%;
-  } */
-}
 
 @media (max-width: 576px) {
   .form-container {

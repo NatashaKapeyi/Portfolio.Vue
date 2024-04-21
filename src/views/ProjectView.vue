@@ -4,7 +4,7 @@
     <div class="row justify-content-center p-2">
       <div v-for="pro in projects" :key="pro.id" class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
         <div class="project-container">
-          <img :src="pro.image" class="project-img img-fluid" alt="Project Image">
+          <img :src="pro.image" class="project-img img-fluid" alt="Project Image"  >
           <div class="project-overlay">
             <div class="hover-content p-1">
               <h5>{{ pro.name }}</h5>
@@ -52,6 +52,7 @@ export default {
   height: auto;
   display: block;
   transition: transform 0.3s ease-in-out;
+  filter: grayscale(100%);
 }
 
 .project-overlay {
