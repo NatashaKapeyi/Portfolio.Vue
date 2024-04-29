@@ -156,6 +156,12 @@ p {
   
 }
 
+@media screen and (min-width: 1400px){
+  .fs-6{
+    font-size: 1.171rem !important; ;
+  }
+}
+
 
 
 </style>
