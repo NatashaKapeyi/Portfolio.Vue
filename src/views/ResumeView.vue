@@ -150,7 +150,7 @@
               </div>
               <div class="col-md-6 image-overlay">
                 <img
-                  src="https://i.ibb.co/W5XxtgJ/Frame-4-1.png"
+                  src="https://i.ibb.co/18bB7n1/Frame-8.png"
                   alt="skills-image"
                   class="image-fluid w-75 h-75"
                   loading="lazy"
