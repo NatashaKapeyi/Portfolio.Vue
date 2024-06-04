@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      - VUE_APP_API_URL=http://db:3000
+
+  db:
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=linamandla
+      - MYSQL_DATABASE=myportfolio
+      - MYSQL_USER=natasha
+      - MYSQL_PASSWORD=linamandla
