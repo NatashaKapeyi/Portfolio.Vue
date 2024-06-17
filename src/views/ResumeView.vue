@@ -64,6 +64,20 @@
               ACHIEVEMENTS
             </button>
           </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="badges-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#badges"
+              type="button"
+              role="tab"
+              aria-controls="badges"
+              aria-selected="false"
+            >
+              BADGES
+            </button>
+          </li>
         </ul>
         <div class="tab-content" id="myTabContent">
           <!-- Education Section -->
@@ -233,6 +247,43 @@
                 />
               </div>
             </div>
+          </div>
+          <!-- Badge Section -->
+          <div
+            class="tab-pane fade"
+            id="badges"
+            role="tabpanel"
+            aria-labelledby="badges-tab"
+          >
+          <div class="row">
+            <div class=" badges container">
+        <div class="badge">
+            <img src="https://i.ibb.co/sFjQ67D/SCRUM-1.png" alt="Badge 1" class="img-fluid ">
+           
+        </div>
+        <div class="badge">
+            <img src="https://i.ibb.co/mhwDghG/Figma.png" alt="Badge 2" class="img-fluid ">
+           
+        </div>
+        <div class="badge">
+            <img src="https://i.ibb.co/F49SZg2/APIs.png" alt="Badge 3" class="img-fluid ">
+           
+        </div>
+        <div class="badge">
+            <img src="https://i.ibb.co/Jk8rzKK/Drupal.png" alt="Badge 4" class="img-fluid ">
+           
+        </div>
+        <div class="badge ">
+            <img src="https://i.ibb.co/qD8dgfJ/f297f794c02f4821bd3e5ca36f35c636.png" alt="Badge 5" class="img-fluid ">
+           
+        </div>
+        <div class="badge">
+            <img src="https://i.ibb.co/GkhJ29K/IBM-CO0101-EN-Certificate-Cognitive-Class.jpg" alt="Badge 6" class="img-fluid ">
+          
+        </div>
+        </div>
+          </div>
+           
           </div>
 
           <!-- Work Experience Section -->
@@ -482,4 +533,27 @@ h4 {
     font-size: 20px;
   }
 }
+
+.badges {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.badge {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.badge img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 </style>
