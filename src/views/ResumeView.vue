@@ -89,7 +89,7 @@
           >
             <div class="row">
               <!-- Wrap the content within a row -->
-              <h2 class="display-4 text-center pt-3">Education</h2>
+              <h2 class="display-4 text-center pt-3"></h2>
               <h4 v-if="showHoverText" class="d-block ">
                 Hover over cards
               </h4>
@@ -139,7 +139,7 @@
             aria-labelledby="skills-tab"
           >
             <div class="row">
-              <h2 class="display-4 text-center pt-3">Skills</h2>
+              <h2 class="display-4 text-center pt-3"></h2>
               <h4 v-if="showHoverText" class="d-block ">
                 Hover over cards
               </h4>
@@ -180,7 +180,7 @@
             aria-labelledby="awards-tab"
           >
             <div class="row">
-              <h2 class="display-4 text-center pt-3">Awards</h2>
+              <h2 class="display-4 text-center pt-3"></h2>
               <h4 v-if="showHoverText" class="d-block ">
                 Hover over cards
               </h4>
@@ -294,7 +294,7 @@
             aria-labelledby="work-tab"
           >
             <div class="row">
-              <h2 class="display-4 text-center pt-3">Work Experience</h2>
+              <h2 class="display-4 text-center pt-3"></h2>
               <h4 v-if="showHoverText" class="d-block ">
                 Hover over cards
               </h4>
