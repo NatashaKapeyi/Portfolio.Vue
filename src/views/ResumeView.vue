@@ -535,25 +535,42 @@ h4 {
 }
 
 .badges {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
 .badge {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .badge img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .badges {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  
+ 
+  @media (max-width: 480px) {
+    .badges {
+      grid-template-columns: 1fr; /* 1 item per row on very small screens */
+    }
+  }
+}
+
+
+
 
 </style>
