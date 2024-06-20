@@ -281,6 +281,10 @@
             <img src="https://i.ibb.co/GkhJ29K/IBM-CO0101-EN-Certificate-Cognitive-Class.jpg" alt="Badge 6" class="img-fluid ">
           
         </div>
+        <div class="badge">
+            <img src="https://i.ibb.co/6YD2jpW/Operating-Systems-Basics-Badge20240620-8-er1tp3.jpg" alt="Badge 7" class="img-fluid ">
+          
+        </div>
         </div>
           </div>
            
