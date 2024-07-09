@@ -285,6 +285,10 @@
             <img src="https://i.ibb.co/6YD2jpW/Operating-Systems-Basics-Badge20240620-8-er1tp3.jpg" alt="Badge 7" class="img-fluid ">
           
         </div>
+        <div class="badge">
+            <img src="https://i.ibb.co/b2gg8SN/Junior-Cybersecurity-Analyst-Career-Path-Badge20240709-7-siz253.jpg" alt="Badge 7" class="img-fluid ">
+          
+        </div>
         </div>
           </div>
            
