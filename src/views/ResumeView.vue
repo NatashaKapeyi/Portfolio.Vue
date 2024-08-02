@@ -289,6 +289,10 @@
             <img src="https://i.ibb.co/b2gg8SN/Junior-Cybersecurity-Analyst-Career-Path-Badge20240709-7-siz253.jpg" alt="Badge 7" class="img-fluid ">
           
         </div>
+        <div class="badge">
+            <img src="https://i.ibb.co/crxPq3Z/Ethical-Hacker-Badge20240802-7-9bv7y4.jpg" alt="Badge 7" class="img-fluid ">
+          
+        </div>
         </div>
           </div>
            
